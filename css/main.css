@@ -25,9 +25,13 @@ body {
 
 
 
+
 @media (max-width: 768px){
-    #intro{
+    #intro, #equipo{
         width: 90% !important;
+    }
+    #equipo p{
+        display: none;
     }
     .servicio-fila{
         width: 100%; 
