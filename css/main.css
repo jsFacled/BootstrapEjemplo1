@@ -52,8 +52,30 @@ body {
     margin:0;
 }
 
+#bg-contacto {
+    position:relative;
+    top: -130px;
+}
 
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
 
+#contenedor-formulario {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
 
 @media(maz-width:1200px){
     #local {
@@ -78,6 +100,10 @@ body {
     .servicio-fila{
         width: 100%; 
         text-align: center;
+    }
+    #bg-contacto {
+        position:relative;
+        top: -110px;
     }
 }
 
